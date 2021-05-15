@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 LABEL Description="Trusty with Qt 5.12 and Subsurface build deps"
 
 # that's a lot of packages. Needed for the Qt installer, for QtWebKit
